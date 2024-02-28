@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://7cjxdkiwp5k4"]
+
+[node name="InstructionsScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Instructions" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 40
+text = "1. Create a new Scene
+2. Add any node to the scene
+3. Rename the node to your name
+4. Save the scene (yourname.tscn)
+5. Attach a new script to the node
+6. Save the script (yourname.gd)
+
+You should now be able to see a list of \"changed files\"
+in GitHub Desktop. Return to the Canvas instructions
+and follow them to the end to finish the assignment!"
+horizontal_alignment = 1
+vertical_alignment = 1
+justification_flags = 160
